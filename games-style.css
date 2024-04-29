@@ -1,0 +1,60 @@
+.nav{
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+.nav a{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.bg-img{
+    background-image: url(Screenshot_2024-04-28-20-01-25-167_com.google.android.googlequicksearchbox.jpg);
+    background-size: cover;
+    height: 900px;
+}
+.rps-ttt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 300px;
+}
+.rock-paper-scissors img{
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid #081b31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rock-paper-scissors:hover{
+    cursor: pointer;
+    height: 170px;
+    width: 170px;
+    background-color: #081b31;
+    border-radius: 50%;
+}
+.tic-tac-toe img{
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid #081b31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.tic-tac-toe:hover{
+    cursor: pointer;
+    height: 170px;
+    width: 170px;
+    background-color: #081b31;
+    border-radius: 50%;
+  }
